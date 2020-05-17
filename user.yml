@@ -1,0 +1,8 @@
+---
+- name: usercreation
+  hosts: localhost
+  tasks:
+  - name: user task
+    user:
+      name: awxserver
+      state: present
